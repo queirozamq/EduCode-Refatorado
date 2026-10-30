@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduCode Inclusivo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">EduCode</div>
+        <ul class="nav-links">
+            <li><a href="#apresentacao">Sobre</a></li>
+            <li><a href="#conteudo">Aprender</a></li>
+            <li><a href="#teste">Quiz</a></li>
+        </ul>
+        <button id="theme-toggle">🌙 Tema Escuro</button>
+    </nav>
+
+    <header>
+        <h1>EduCode Inclusivo</h1>
+        <p>Aprenda algoritmos de forma simples!</p>
+    </header>
+    
+    <main>
+        <!-- Secção de apresentação do projeto -->
+        <section id="apresentacao">
+            <h2>Sobre o Projeto</h2>
+            <p>O EduCode Inclusivo é um portal interativo desenhado para ajudar alunos iniciantes a darem os primeiros passos no mundo da programação. O nosso objetivo é tornar a aprendizagem sobre algoritmos acessível, prática e divertida.</p>
+        </section>
+
+        <section id="conteudo">
+            <h2>O que é um algoritmo?</h2>
+            <p>Algoritmo é uma sequência de passos utilizada para resolver um problema.</p>
+        </section>
+
+        <section id="teste">
+            <h2>Teste o seu conhecimento</h2>
+            <p>Quantos passos existem neste algoritmo?</p>
+            <p>
+                1. Pegar no computador<br>
+                2. Ligar o computador<br>
+                3. Esperar que inicie
+            </p>
+            <input id="resposta" type="number" placeholder="Digite a resposta">
+            <button id="verificar">Verificar</button>
+            <p id="resultado"></p>
+        </section>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
